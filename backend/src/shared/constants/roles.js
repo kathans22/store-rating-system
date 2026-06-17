@@ -1,0 +1,9 @@
+const ROLES = {
+  ADMIN: 'ADMIN',
+  USER: 'USER',
+  STORE_OWNER: 'STORE_OWNER',
+};
+
+const ADMIN_MANAGED_ROLES = [ROLES.ADMIN, ROLES.USER];
+
+module.exports = { ROLES, ADMIN_MANAGED_ROLES };
